@@ -1,0 +1,26 @@
+/* style.css */ body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+
+header { background-color: #000; color: #fff; padding: 1rem; text-align: center; position: sticky; top: 0; z-index: 999; }
+
+.logo { width: 60px; height: auto; margin-bottom: 10px; }
+
+.offer { background-color: red; color: white; padding: 10px; font-weight: bold; }
+
+.content { padding: 20px; max-width: 600px; margin: auto; background: white; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); margin-top: 20px; }
+
+form { display: flex; flex-direction: column; }
+
+input, select, button { margin-bottom: 10px; padding: 10px; font-size: 16px; border-radius: 5px; border: 1px solid #ccc; }
+
+button { background-color: #000; color: white; cursor: pointer; border: none; }
+
+button:hover { background-color: #333; }
+
+footer { text-align: center; padding: 20px; background: #000; color: #fff; margin-top: 40px; }
+
+.insta-btn { position: fixed; bottom: 20px; right: 20px; }
+
+.insta-btn img { width: 50px; height: 50px; }
+
+details { margin-top: 10px; }
+
