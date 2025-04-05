@@ -1,0 +1,43 @@
+<!-- payment.html --><!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - Flakzon SMM</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .qr-img {
+            max-width: 200px;
+            margin: 1rem auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Flakzon SMM</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="order.html">Order</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header><section class="payment">
+    <h2>Make Your Payment</h2>
+    <p>Scan the QR code below to pay via UPI:</p>
+    <img src="images/qr.png" alt="QR Code" class="qr-img">
+    <p><strong>UPI ID:</strong> flakzon@upi</p>
+
+    <form action="#" method="POST">
+        <label for="txn">Enter UPI Transaction ID:</label>
+        <input type="text" id="txn" name="txn" placeholder="e.g., 1234567890" required>
+
+        <button type="submit">Submit Transaction</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2025 Flakzon. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
